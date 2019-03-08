@@ -136,6 +136,10 @@ small {
   background-color: white;
 }
 
+.yearbook h4 {
+  text-align: center;
+}
+
 .yearbook .section img {
   grid-row: span 3;
   grid-column: 1;
@@ -169,7 +173,6 @@ small {
   grid-column: 1;
   grid-row: span 1;
 }
-
 
 .social-media {
   display: grid;
@@ -252,4 +255,17 @@ small {
   .calendar-day > .event {
     font-size: .8em;
   }
+
+  #first-section img {
+    grid-column: span 2;
+    grid-row: 1;
+  }
+
+  #first-section .category, #first-section .description, #first-section .winner {
+    grid-column: 1 / -1;
+  }
+
+  /* #first-section .description {
+    font-size: .7em;
+  } */
 }
