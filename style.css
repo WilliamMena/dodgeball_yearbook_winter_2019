@@ -215,16 +215,20 @@ table {
     margin-top: 60px;
 }
 
-    .social-media img {
-        width: 48px;
-    }
+.social-media img {
+    width: 48px;
+}
 
-    .social-media a {
-        font-size: .7em;
-        text-decoration: none;
-        text-align: center;
-        color: #e17055;
-    }
+.social-media a {
+    font-size: .7em;
+    text-decoration: none;
+    text-align: center;
+    color: #e17055;
+}
+
+.social-media td {
+    text-align: center;
+}
 
 @media only screen and (max-width: 501px) {
     .container {
