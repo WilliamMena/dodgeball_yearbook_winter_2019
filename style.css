@@ -209,10 +209,15 @@ table {
 }
 
 .social-media {
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(5, 60px);
-    justify-content: center;
+    justify-content: center;*/
     margin-top: 60px;
+}
+
+.social-media table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social-media img {
@@ -228,6 +233,7 @@ table {
 
 .social-media td {
     text-align: center;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 501px) {
